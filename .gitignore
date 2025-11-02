@@ -66,9 +66,9 @@ runs/                       # (যদি TensorBoard/PyTorch-log রাখো)
 **/*.onnx
 
 # --- Datasets (customize) ---
-data/
-datasets/
-dataset/
+# data/
+# datasets/
+# dataset/
 # বড় ডেটা ফাইল:
 **/*.zip
 **/*.tar
