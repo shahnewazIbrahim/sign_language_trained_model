@@ -1,0 +1,81 @@
+# --- Python build/cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native/compiled (যদি C/C++ ext থাকে)
+*.so
+*.pyd
+*.dylib
+
+# --- Virtual env ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Logs & temp ---
+*.log
+logs/
+tmp/
+temp/
+
+# --- Tests/coverage/type-check ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+.pyrightcache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE/OS specific ---
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# --- Secrets / env files ---
+.env
+.env.*
+.envrc
+
+# --- TensorFlow / ML artifacts ---
+checkpoints/
+saved_models/
+**/events.out.tfevents*
+**/tensorboard/
+runs/                       # (যদি TensorBoard/PyTorch-log রাখো)
+**/*.h5
+**/*.keras
+**/*.tflite
+**/*.onnx
+
+# --- Datasets (customize) ---
+data/
+datasets/
+dataset/
+# বড় ডেটা ফাইল:
+**/*.zip
+**/*.tar
+**/*.gz
+# NOTE: CSV ignore করতে চাইলে খুলে দাও; ছোট CSV ট্র্যাক করতে চাইলে এই লাইনটা মুছে দাও
+**/*.csv
+
+# --- Outputs ---
+outputs/
+artifacts/
