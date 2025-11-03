@@ -1,2 +1,4 @@
 used file: train_sign_mnist_csv.py, verify_sign_mnist.py, export_tflite.py
 used model file : sign_mnist_best.keras, sign_mnist_model.h5
+cd tf-mnist
+.\.venv\Scripts\Activate
